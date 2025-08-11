@@ -16,10 +16,10 @@
         @yield('jumbotron')
     
         {{-- content --}}
-        @yield('content')
+        @include('pages.home.content')
 
         {{-- blue-list --}}
-        @yield('blue-list')
+        @include('pages.home.blue-list')
 
         {{-- pre-footer --}}
         @include('partials.prefooter')
